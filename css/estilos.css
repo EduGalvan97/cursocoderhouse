@@ -29,28 +29,35 @@
 .fraseUno{
     font-size: 55px;
     text-align: center;
+    background-color: #DDC8C4;
+}
+
+.fraseUno p{
+    margin-bottom: 0%;
 }
 
 .articuloUno{
     display: flex;
-    background-color: #DDC8C4;
+    list-style-type: none;
+    margin-bottom: 0%;
+    padding: 0%;
+    background-color: #F8F4E3;
 }
 
 .parrafoArticuloUno{
-    margin-top: 175px;
     font-size: 30px;
-    padding-left: 200px;
+    padding: 150px;
 }
 
 .articuloDos{
     display: flex;
+    list-style-type: none;
+
 }
 
 .parrafoArticuloDos{
-    margin-top: 175px;
-    margin-left: 15px;
-    margin-right: 15px;
     font-size: 30px;
+    padding: 150px;
 }
 
 .footer{
@@ -112,6 +119,89 @@
     font-size: 20px;
 }
 
-.mapa{
-    border-radius: 10px;
+.tituloTratamientosCorporales{
+    text-align: center;
+    background-color: #DDC8C4;
+    font-size: 60px;
+}
+
+.tituloTratamientosCorporales h1{
+    margin-bottom: 0% ;
+}
+
+.containerMasajesAbdomen{
+    display: flex;
+    background-color: #F8F4E3;
+}
+
+.imgMasajesAbdominales{
+    width: 400px;
+    height: 500px;
+}
+
+.parrafoMasajesUno{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.containerMasajesEspalda{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.parrafoMasajesDos{
+    font-size: 30px;
+    padding: 5px 10px 0px 10px;
+}
+
+.imgMasajesEspalda{
+    width: 400px;
+    height: 500px;
+}
+
+.containerMasajesGluteos{
+    display: flex;
+    background-color: #F8F4E3;
+}
+
+.parrafoMasajesGluteos{
+    font-size: 30px;
+    padding: 130px 20px 130px 20px;
+}
+
+.imgMasajesGluteos{
+    width: 400px;
+    height: 500px;
+}
+
+.containerMasajesDescontracturantes{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.parrafoMasajesDescontracturantes{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.imgMasajesDescon{
+    width: 500px;
+    height: 850px;
+}
+
+.containerMasajesCelulitis{
+    display: flex;
+    background-color: #F8F4E3;
+    justify-content: space-between;
+}
+
+.imgMasajesCelulitis{
+    width: 400px;
+    height: 500px;
+}
+
+.parrafoMasajesCelulitis{
+    font-size: 30px;
+    padding: 35px;
 }
