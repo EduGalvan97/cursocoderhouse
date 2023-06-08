@@ -1,434 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Instrument Serif', serif;
+.listaIndex {
+  display: flex;
+  background-color: #F6EBE7;
+  width: 100%;
+  font-size: 25px;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 0%;
 }
-
-.listaIndex{
-    display: flex;
-    background-color: #F6EBE7;
-    width: 100%;
-    font-size: 25px; 
-    list-style-type: none;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px;
-    margin-bottom: 0%;
-}
-
-.listaIndex li a{
-    text-decoration: none;
-    color: #49181B;
-}
-
-.imagenPrincipal{
-    width: 100%;
-}
-
-.fraseUno{
-    font-size: 55px;
-    text-align: center;
-    background-color: #DDC8C4;
-}
-
-.fraseUno p{
-    margin-bottom: 0%;
-}
-
-.articuloUno{
-    display: flex;
-    list-style-type: none;
-    margin-bottom: 0%;
-    padding: 0%;
-    background-color: #F8F4E3;
-}
-
-.parrafoArticuloUno{
-    font-size: 30px;
-    padding: 150px;
-}
-
-.articuloDos{
-    display: flex;
-    list-style-type: none;
-
-}
-
-.parrafoArticuloDos{
-    font-size: 30px;
-    padding: 150px;
-}
-
-.footer{
-    margin: 5px 10px;
-    display: flex;
-    justify-content: center;
-}
-
-.footer ul{
-    padding: 0%;
-}
-
-.containerFooterUno{
-    display: flex;
-    list-style-type: none;
-}
-
-.containerFooterUno li{
-    padding: 20px;
-}
-
-.logoInsta{
-    width: 75px;
-    height: 75px;
-}
-
-.logoWpp{
-    width: 75px;
-    height: 75px;
-}
-
-.containerContacto{
-    text-align: center;
-    font-size: x-large;
-    background-color: #DDC8C4;
-    color: #49181B;
-}
-
-.containerContacto h1{
-    font-size: 60px;
-}
-
-.containerContacto p{
-    margin: 0%;
-}
-
-.containerFormulario{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 600px;
-    font-size: 25px;
-    background-color: #F0EFEB;
-}
-
-.containerFormulario div{
-    text-align: center;
-    padding: 20px;
-}
-
-.containerMapa{
-    padding: 30px 400px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #DDC8C4;
-}
-
-.containerMapa p{
-    font-size: 20px;
-}
-
-.tituloTratamientosCorporales{
-    text-align: center;
-    background-color: #DDC8C4;
-    font-size: 60px;
-}
-
-.tituloTratamientosCorporales h1{
-    margin-bottom: 0% ;
-}
-
-.containerMasajesAbdomen{
-    display: flex;
-    background-color: #F8F4E3;
-}
-
-.imgMasajesAbdominales{
-    width: 400px;
-    height: 500px;
-}
-
-.parrafoMasajesUno{
-    font-size: 30px;
-    padding: 20px;
-}
-
-.containerMasajesEspalda{
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.parrafoMasajesDos{
-    font-size: 30px;
-    padding: 5px 10px 0px 10px;
-}
-
-.imgMasajesEspalda{
-    width: 400px;
-    height: 500px;
-}
-
-.containerMasajesGluteos{
-    display: flex;
-    background-color: #F8F4E3;
-}
-
-.parrafoMasajesGluteos{
-    font-size: 30px;
-    padding: 130px 20px 130px 20px;
-}
-
-.imgMasajesGluteos{
-    width: 400px;
-    height: 500px;
-}
-
-.containerMasajesDescontracturantes{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-}
-
-.parrafoMasajesDescontracturantes{
-    font-size: 30px;
-    padding: 20px;
-}
-
-.imgMasajesDescon{
-    width: 500px;
-    height: 850px;
-}
-
-.containerMasajesCelulitis{
-    display: flex;
-    background-color: #F8F4E3;
-    justify-content: space-between;
-}
-
-.imgMasajesCelulitis{
-    width: 400px;
-    height: 500px;
-}
-
-.parrafoMasajesCelulitis{
-    font-size: 30px;
-    padding: 35px;
-}
-
-.tituloTratamientosFaciales{
-    text-align: center;
-    background-color: #DDC8C4;
-    font-size: 60px;
-}
-
-.tituloTratamientosFaciales h1{
-    margin-bottom: 0% ;
-}
-
-.containerLimpiezaFacial{
-    display: flex;
-    background-color: #F8F4E3;
-}
-
-.imgLimpiezaFacial{
-    width: 400px;
-    height: 500px;
-}
-
-.parrafoLimpiezaUno{
-    font-size: 30px;
-    padding: 150px;
+.listaIndex li a {
+  text-decoration: none;
+  color: #49181B;
 }
 
-.containerMasajesFaciales{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 5px 10px;
 }
-
-.imgMasajesFaciales{
-    width: 400px;
-    height: 500px;
-}
-
-.parrafoMasajesFaciales{
-    font-size: 30px;
-    padding: 150px;
-}
-
-.containerDermaplaning{
-    display: flex;
-    background-color: #F8F4E3;
-    justify-content: space-between;
-}
-
-.imgDermaplaning{
-    width: 400px;
-    height: 500px;
-}
-
-.parrafoDermaplaning{
-    font-size: 30px;
-    padding: 150px;
-}
-
-.containerDermapen{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-}
-
-.imgDermapen{
-    width: 1100px;
-    height: 500px;
-}
-
-.parrafoDermapen{
-    font-size: 30px;
-    padding: 70px;
+.footer ul {
+  padding: 0%;
+  margin: 0%;
 }
 
-.tituloQuienesSomos{
-    text-align: center;
-    background-color: #DDC8C4;
-    font-size: 60px;
+.containerFooterUno {
+  display: flex;
+  list-style-type: none;
 }
-
-.tituloQuienesSomos h1{
-    margin-bottom: 0% ;
-}
-
-.parrafoQuienesUno{
-    font-size: 30px;
-    padding: 50px;
-    text-align: center;
-}
-
-.imgQuienes{
-    width: 100%;
-    height: 1000px;
-}
-
-.containerParrafoManu{
-    text-align: center;
-    font-size: 25px;
-    padding: 10px;
-}
-
-.containerParrafoManu p{
-    margin: 0%;
-}
-
-.tituloFundadora{
-    text-align: center;
-    background-color: #DDC8C4;
-    font-size: 60px;
-}
-
-.tituloFundadora p{
-    margin-bottom: 0% ;
-}
-
-.containerImgFunda{
-    text-align: center;
-    padding: 30px;
+.containerFooterUno li {
+  padding: 20px;
 }
 
-.imgFundadora{
-    width: 350px;
-    height: 425px;
-    border-radius: 60%;
-    margin: 0%;
+.logoInsta {
+  width: 75px;
+  height: 75px;
 }
 
-@media screen and (max-width:768px){
-    .listaIndex{
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-    }
-    .listaIndex li:nth-child(2){
-        display: none;
-    }
-    .fraseUno{
-        font-size: 40px;
-    }
-    .articuloUno{
-        flex-direction: column;
-    }
-    .articuloUno li img{
-        width: 100%;
-    }
-    .parrafoArticuloUno{
-        font-size: 30px;
-        padding: 60px;
-        text-align: center;
-    }
-    .articuloDos{
-        flex-direction: column-reverse;
-        padding: 0%;
-        margin: 0%;
-    }
-    .articuloDos li img{
-        width: 100%;
-        height: 550px;
-    }
-    .parrafoArticuloDos{
-        font-size: 30px;
-        padding: 60px;
-        text-align: center;
-        background-color: #DDC8C4;
-    }
-    .footer{
-        margin: 0%;
-        padding: 0%;
-    }
+.logoWpp {
+  width: 75px;
+  height: 75px;
 }
 
-@media screen and (max-width:500px){
-    .listaIndex{
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-        font-size: 18px;
-    }
-    .listaIndex li:nth-child(2){
-        display: none;
-    }
-    .imagenLogo{
-        width: 200px;
-    }
-    .fraseUno{
-        font-size: 25px;
-        flex-direction: column;
-    }
-    .articuloUno{
-        flex-direction: column;
-    }
-    .articuloUno li img{
-        width: 100%;
-    }
-    .parrafoArticuloUno{
-        padding: 10%;
-        font-size: 15px;
-    }
-    .articuloDos{
-        flex-direction: column-reverse;
-        padding: 0%;
-        margin: 0%;
-        background-color: #DDC8C4;
-    }
-    .parrafoArticuloDos{
-        padding: 10%;
-        font-size: 15px;
-    }
-    .articuloDos li img{
-        width: 100%;
-    }
-    .footer{
-        margin: 0%;
-    }
-    .containerFooterUno{
-        margin: 0%;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Instrument Serif", serif;
 }
 
+/*# sourceMappingURL=estilos.css.map */

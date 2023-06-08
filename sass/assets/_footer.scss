@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: 5px 10px;
+    ul{
+        padding: 0%;
+        margin: 0%;
+    }
+}
+
+.containerFooterUno{
+    display: flex;
+    list-style-type: none;
+    li{
+        padding: 20px;
+    }
+}
+
+.logoInsta{
+    width: 75px;
+    height: 75px;
+}
+
+.logoWpp{
+    width: 75px;
+    height: 75px;
+}

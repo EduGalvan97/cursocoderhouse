@@ -1,0 +1,17 @@
+.listaIndex{
+    display: flex;
+    background-color: #F6EBE7;
+    width: 100%;
+    font-size: 25px; 
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 0%;
+    li{
+        a{
+            text-decoration: none;
+            color: #49181B;
+        }
+    }
+}
