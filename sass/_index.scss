@@ -1,0 +1,35 @@
+.imagenPrincipal{
+    width: 100%;
+}
+
+.fraseUno{
+    font-size: 55px;
+    text-align: center;
+    background-color: #DDC8C4;
+    p{
+        margin-bottom: 0%;
+    }
+}
+
+.articuloUno{
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0%;
+    padding: 0%;
+    background-color: #F8F4E3;
+}
+
+.parrafoArticuloUno{
+    font-size: 30px;
+    padding: 150px;
+}
+
+.articuloDos{
+    display: flex;
+    list-style-type: none;
+}
+
+.parrafoArticuloDos{
+    font-size: 30px;
+    padding: 150px;
+}

@@ -1,0 +1,85 @@
+.tituloTratamientosCorporales{
+    text-align: center;
+    background-color: #DDC8C4;
+    font-size: 60px;
+    h1{
+        margin-bottom: 0%;
+    }
+}
+
+.containerMasajesAbdomen{
+    display: flex;
+    background-color: #F8F4E3;
+}
+
+.imgMasajesAbdominales{
+    width: 400px;
+    height: 500px;
+}
+
+.parrafoMasajesUno{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.containerMasajesEspalda{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.parrafoMasajesDos{
+    font-size: 30px;
+    padding: 5px 10px 0px 10px;
+}
+
+.imgMasajesEspalda{
+    width: 400px;
+    height: 500px;
+}
+
+.containerMasajesGluteos{
+    display: flex;
+    background-color: #F8F4E3;
+}
+
+.parrafoMasajesGluteos{
+    font-size: 30px;
+    padding: 130px 20px 130px 20px;
+}
+
+.imgMasajesGluteos{
+    width: 400px;
+    height: 500px;
+}
+
+.containerMasajesDescontracturantes{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.parrafoMasajesDescontracturantes{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.imgMasajesDescon{
+    width: 500px;
+    height: 850px;
+}
+
+.containerMasajesCelulitis{
+    display: flex;
+    background-color: #F8F4E3;
+    justify-content: space-between;
+}
+
+.imgMasajesCelulitis{
+    width: 400px;
+    height: 500px;
+}
+
+.parrafoMasajesCelulitis{
+    font-size: 30px;
+    padding: 35px;
+}

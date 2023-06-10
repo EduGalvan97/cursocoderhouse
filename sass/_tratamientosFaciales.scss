@@ -1,0 +1,71 @@
+.tituloTratamientosFaciales{
+    text-align: center;
+    background-color: #DDC8C4;
+    font-size: 60px;
+    h1{
+        margin-bottom: 0%;
+    }
+}
+
+.containerLimpiezaFacial{
+    display: flex;
+    background-color: #F8F4E3;
+}
+
+.imgLimpiezaFacial{
+    width: 400px;
+    height: 500px;
+}
+
+.parrafoLimpiezaUno{
+    font-size: 30px;
+    padding: 150px;
+}
+
+.containerMasajesFaciales{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.imgMasajesFaciales{
+    width: 400px;
+    height: 500px;
+}
+
+.parrafoMasajesFaciales{
+    font-size: 30px;
+    padding: 150px;
+}
+
+.containerDermaplaning{
+    display: flex;
+    background-color: #F8F4E3;
+    justify-content: space-between;
+}
+
+.imgDermaplaning{
+    width: 400px;
+    height: 500px;
+}
+
+.parrafoDermaplaning{
+    font-size: 30px;
+    padding: 150px;
+}
+
+.containerDermapen{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.imgDermapen{
+    width: 1100px;
+    height: 500px;
+}
+
+.parrafoDermapen{
+    font-size: 30px;
+    padding: 70px;
+}

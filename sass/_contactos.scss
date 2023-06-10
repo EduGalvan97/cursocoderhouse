@@ -1,0 +1,46 @@
+.containerContacto{
+    text-align: center;
+    font-size: x-large;
+    background-color: #DDC8C4;
+    color: #49181B;
+    h1{
+        font-size: 60px;
+    }
+    p{
+        margin: 0%;
+    }
+}
+
+.containerFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: #F0EFEB;
+    input{
+        padding: 0px 200px;
+    }
+    textarea{
+        padding: 0px 200px;
+    }
+    div{
+        text-align: center;
+        padding: 20px;
+        input{
+            padding: 0px 20px;
+            margin: 10px;
+            background-color: #F0EFEB;
+        }
+    }
+}
+
+.containerMapa{
+    padding: 30px 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #DDC8C4;
+    p{
+        font-size: 20px;
+    }
+}
