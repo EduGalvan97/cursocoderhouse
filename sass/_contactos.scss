@@ -11,19 +11,15 @@
     }
 }
 
+.container-fluid{
+    background-color: #F0EFEB;
+}
+
 .containerFormulario{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    background-color: #F0EFEB;
-    input{
-        padding: 0px 200px;
-    }
-    textarea{
-        padding: 0px 200px;
-    }
+    text-align: center;
     div{
         text-align: center;
         padding: 20px;
