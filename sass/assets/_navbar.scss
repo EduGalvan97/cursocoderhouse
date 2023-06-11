@@ -1,8 +1,15 @@
+.navbar{
+    padding: 0%;
+}
+
+.container-fluid{
+    background-color: #F6EBE7;
+}
+
 .listaIndex{
-    display: flex;
     background-color: #F6EBE7;
     width: 100%;
-    font-size: 25px; 
+    font-size: 23px; 
     list-style-type: none;
     justify-content: space-around;
     align-items: center;

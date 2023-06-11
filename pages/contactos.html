@@ -14,15 +14,32 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="listaIndex">
-                <li><a href="../index.html"><img class="imagenLogo" src="../img/logorecortado.png" alt="Logo libra estética"></a></li>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/tratamientosCorporales.html">Tratamientos Corporales</a></li>
-                <li><a href="../pages/tratamientosFaciales.html">Tratamientos Faciales</a></li>
-                <li><a href="../pages/quienesSomos.html">Quienes Somos</a></li>  
-                <li><a href="../pages/contactos.html">Contactos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="imagenLogo" src="../img/logorecortado.png" alt="Logo libra estética"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav listaIndex">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/tratamientosCorporales.html">Tratamientos Corporales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/tratamientosFaciales.html">Tratamientos Faciales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/quienesSomos.html">Quienes Somos</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contactos.html">Contactos</a>
+                        </li>
+                    </ul>
+                </div>    
+            </div>    
         </nav>
     </header>
     <main>
@@ -32,7 +49,7 @@
             <p>Estamos disponibles 24/7 a través de todos nuestros espacios.</p>
             <p>Utiliza el formulario de contacto rápido a continuación o visitanos personalmente.</p>
         </div>
-        <section class="container-fluid">
+        <section class="colorFormulario">
             <form class="containerFormulario row">
                 <label for="name">Nombre:</label>
                 <input class="col-6" type="text" name="name" id="name" required>
