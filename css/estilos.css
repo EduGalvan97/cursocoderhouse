@@ -40,9 +40,6 @@
   background-color: #DDC8C4;
   color: #49181B;
 }
-.containerContacto h1 {
-  font-size: 60px;
-}
 .containerContacto p {
   margin: 0%;
 }
@@ -67,14 +64,28 @@
   background-color: #F0EFEB;
 }
 
-.containerMapa {
-  padding: 30px 400px;
+.containerInfo {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   background-color: #DDC8C4;
 }
-.containerMapa p {
+.containerInfo p {
   font-size: 20px;
+}
+
+.row {
+  margin: 0%;
+}
+
+.containerMapa {
+  align-items: center;
+  padding: 10px;
+}
+
+.mapa {
+  width: 450px;
+  height: 300px;
 }
 
 .tituloQuienesSomos {
