@@ -1,3 +1,7 @@
+.row {
+  margin: 0%;
+}
+
 .imagenPrincipal {
   width: 100%;
 }
@@ -15,25 +19,78 @@
   display: flex;
   list-style-type: none;
   margin-bottom: 0%;
-  padding: 0%;
+  padding: 10px;
   background-color: #F8F4E3;
 }
 
 .parrafoArticuloUno {
   font-size: 30px;
-  padding: 150px;
+  display: flex;
+  align-items: center;
 }
 
 .articuloDos {
   display: flex;
   list-style-type: none;
+  padding: 10px;
 }
 
 .parrafoArticuloDos {
   font-size: 30px;
-  padding: 150px;
+  display: flex;
+  align-items: center;
 }
 
+.imagenConsul {
+  display: flex;
+  justify-content: end;
+}
+
+@media screen and (max-width: 768px) {
+  .fraseUno {
+    font-size: 40px;
+  }
+  .fraseUno p {
+    padding: 7px;
+  }
+  .posicionImagen {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .imagenArtUno {
+    width: 500px;
+    height: 300px;
+  }
+  .parrafoArticuloUno {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+  }
+  .articuloDos {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .parrafoArticuloDos {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+  }
+  .imagenConsul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .imagenCompu {
+    width: 500px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .fraseUno {
+    font-size: 30px;
+  }
+}
 .containerContacto {
   text-align: center;
   font-size: x-large;
@@ -319,6 +376,12 @@
   color: #49181B;
 }
 
+@media screen and (max-width: 600px) {
+  .imagenLogo {
+    width: 200px;
+    height: 60px;
+  }
+}
 .footer {
   display: flex;
   justify-content: center;
