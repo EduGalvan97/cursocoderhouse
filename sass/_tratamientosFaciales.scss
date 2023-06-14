@@ -9,7 +9,23 @@
 
 .containerLimpiezaFacial{
     display: flex;
+    align-items: center;
     background-color: #F8F4E3;
+    ul{
+        list-style-type: none;
+        margin: 0%;
+    }
+}
+
+.parrafoLimpiezaUno{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.containerImgLimFac{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
 }
 
 .imgLimpiezaFacial{
@@ -17,15 +33,26 @@
     height: 500px;
 }
 
-.parrafoLimpiezaUno{
-    font-size: 30px;
-    padding: 150px;
-}
-
 .containerMasajesFaciales{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    ul{
+        list-style-type: none;
+        margin: 0%;
+    }
+}
+
+.containerImgMasFac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.parrafoMasajesFaciales{
+    font-size: 30px;
 }
 
 .imgMasajesFaciales{
@@ -33,15 +60,25 @@
     height: 500px;
 }
 
-.parrafoMasajesFaciales{
-    font-size: 30px;
-    padding: 150px;
-}
-
 .containerDermaplaning{
     display: flex;
     background-color: #F8F4E3;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    ul{
+        list-style-type: none;
+        margin: 0%;
+    }
+}
+
+.parrafoDermaplaning{
+    font-size: 30px;
+}
+
+.containerImgDermaplaning{
+    display: flex;
+    justify-content: end;
 }
 
 .imgDermaplaning{
@@ -49,15 +86,25 @@
     height: 500px;
 }
 
-.parrafoDermaplaning{
-    font-size: 30px;
-    padding: 150px;
-}
-
 .containerDermapen{
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #DDC8C4;
+    ul{
+        list-style: none;
+        margin: 0%;
+    }
+}
+
+.parrafoDermapen{
+    font-size: 30px;
+}
+
+.containerImgDermapen{
+    padding: 15px;
 }
 
 .imgDermapen{
@@ -65,7 +112,100 @@
     height: 500px;
 }
 
-.parrafoDermapen{
-    font-size: 30px;
-    padding: 70px;
+@media screen and (max-width: 768px){
+    .containerLimpiezaFacial{
+        flex-direction: column-reverse;
+    }
+    .parrafoLimpiezaUno{
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
+    }
+    .containerImgLimFac{
+        justify-content: center;
+        padding: 15px;
+    }
+    .containerMasajesFaciales{
+        flex-direction: column-reverse;
+    }
+    .parrafoMasajesFaciales{
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
+    }
+    .containerImgMasFac{
+        justify-content: center;
+        padding: 15px;
+    }
+    .containerDermaplaning{
+        flex-direction: column-reverse;
+    }
+    .parrafoDermaplaning{
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
+    }
+    .containerImgDermaplaning{
+        justify-content: center;
+        padding: 15px;
+    }
+    .containerDermapen{
+        flex-direction: column-reverse;
+    }
+    .parrafoDermapen{
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
+    }
+    .imgDermapen{
+        width: 700px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .parrafoLimpiezaUno{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .containerImgLimFac{
+        padding: 10px;
+    }
+    .imgLimpiezaFacial{
+        width: 350px;
+        height: 450px;
+    }
+    .parrafoMasajesFaciales{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .containerMasajesFaciales{
+        padding: 10px;
+    }
+    .imgMasajesFaciales{
+        width: 350px;
+        height: 450px;
+    }
+    .parrafoDermaplaning{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .containerDermaplaning{
+        padding: 10px;
+    }
+    .imgDermaplaning{
+        width: 350px;
+        height: 450px;
+    }
+    .parrafoDermapen{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .containerDermapen{
+        padding: 10px;
+    }
+    .imgDermapen{
+        width: 500px;
+        height: 275px;
+    }
 }

@@ -50,4 +50,65 @@
 .mapa{
     width: 450px;
     height: 300px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .containerContacto{
+        p{
+            font-size: 25px;
+            padding: 5px;
+        }
+    }
+    .containerFormulario{
+        label{
+            font-size: 23px;
+        }
+        div{
+            padding: 20px;
+            input{
+                margin: 5px 10px;
+                font-size: 23px;
+            }
+        }
+    }
+    .containerInfo{
+        text-align: center;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .mapa{
+        width: 600px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .containerContacto{
+        p{
+            font-size: 20px;
+            padding: 5px;
+        }
+    }
+    .containerFormulario{
+        label{
+            font-size: 20px;
+        }
+        div{
+            padding: 15px;
+            input{
+                font-size: 20px;
+                padding: 0px 15px;
+            }
+        }
+    }
+    .containerInfo{
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .mapa{
+        width: 450px;
+        height: 150px;
+    }
 }

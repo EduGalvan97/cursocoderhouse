@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 768px){
     .fraseUno{
-        font-size: 40px;
+        font-size: 38px;
         p{
             padding: 7px;
         }
@@ -90,5 +90,21 @@
 @media screen and (max-width: 600px){
     .fraseUno{
         font-size: 32px;
+    }
+    .imagenArtUno{
+        width: 400px;
+        height: 250px;
+    }
+    .parrafoArticuloUno{
+        font-size: 20px;
+        padding: 15px;
+    }
+    .imagenCompu{
+        width: 400px;
+        height: 250px;
+    }
+    .parrafoArticuloDos{
+        font-size: 20px;
+        padding: 15px;
     }    
 }

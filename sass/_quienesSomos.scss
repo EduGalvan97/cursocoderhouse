@@ -7,15 +7,40 @@
     }
 }
 
+.containerParrafoQuienesUno{
+    ul{
+        list-style-type: none;
+        margin: 0%;
+    }
+}
+
 .parrafoQuienesUno{
     font-size: 30px;
     padding: 50px;
     text-align: center;
 }
 
+.containerConsultorio{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #F8F4E3;
+    padding: 10px;
+    li{
+        list-style-type: none;
+        margin: 0%;
+    }
+}
+.containerImgConsul{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
 .imgQuienes{
-    width: 100%;
-    height: 1000px;
+    width: 800px;
+    height: 500px;
 }
 
 .containerParrafoManu{
@@ -46,4 +71,53 @@
     height: 425px;
     border-radius: 60%;
     margin: 0%;
+}
+
+@media screen and (max-width: 768px){
+    .parrafoQuienesUno{
+        font-size: 25px;
+        padding: 30px;
+    }
+    .containerConsultorio{
+        font-size: 30px;
+        color: #49181B;
+    }
+    .imgQuienes{
+        width: 500px;
+        height: 350px;
+    }
+    .tituloFundadora{
+        font-size: 35px;
+    }
+    .imgFundadora{
+        width: 300px;
+        height: 350px;
+    }
+    .containerParrafoManu{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .parrafoQuienesUno{
+        font-size: 20px;
+        padding: 25px;
+    }
+    .containerConsultorio{
+        font-size: 25px;
+    }
+    .imgQuienes{
+        width: 450px;
+        height: 300px;
+    }
+    .tituloFundadora{
+        font-size: 30px;
+    }
+    .imgFundadora{
+        width: 250px;
+        height: 300px;
+    }
+    .containerParrafoManu{
+        font-size: 19px;
+    }
 }

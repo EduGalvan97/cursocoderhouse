@@ -10,6 +10,23 @@
 .containerMasajesAbdomen{
     display: flex;
     background-color: #F8F4E3;
+    margin: 0%;
+    ul{
+        list-style-type: none;
+    }
+}
+
+.parrafoMasajesUno{
+    font-size: 30px;
+    padding: 20px;
+    margin: 0%;
+}
+
+.containerImgAbd{
+    display: flex;
+    justify-content: end;
+    margin: 0%;
+    padding: 10px;
 }
 
 .imgMasajesAbdominales{
@@ -17,19 +34,26 @@
     height: 500px;
 }
 
-.parrafoMasajesUno{
-    font-size: 30px;
-    padding: 20px;
-}
-
 .containerMasajesEspalda{
     display: flex;
     flex-direction: row-reverse;
+    ul{
+        list-style-type: none;
+    }
 }
 
 .parrafoMasajesDos{
     font-size: 30px;
-    padding: 5px 10px 0px 10px;
+    margin: 0%;
+    padding: 10px;
+}
+
+.containerImgEsp{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0%;
+    padding: 10px;
 }
 
 .imgMasajesEspalda{
@@ -40,11 +64,23 @@
 .containerMasajesGluteos{
     display: flex;
     background-color: #F8F4E3;
+    align-items: center;
+    ul{
+        list-style-type: none;
+    }
 }
 
 .parrafoMasajesGluteos{
     font-size: 30px;
-    padding: 130px 20px 130px 20px;
+    padding: 20px 20px;
+    margin: 0%;
+}
+
+.containerImgGlu{
+    margin: 0%;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
 }
 
 .imgMasajesGluteos{
@@ -55,12 +91,21 @@
 .containerMasajesDescontracturantes{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    ul{
+        list-style-type: none;
+        margin: 0%;
+    }
 }
 
 .parrafoMasajesDescontracturantes{
     font-size: 30px;
-    padding: 20px;
+    padding: 10px
+}
+
+.containerImgDesc{
+    padding: 10px;
 }
 
 .imgMasajesDescon{
@@ -71,7 +116,21 @@
 .containerMasajesCelulitis{
     display: flex;
     background-color: #F8F4E3;
-    justify-content: space-between;
+    align-items: center;
+    ul{
+        list-style-type: none;
+        margin: 0%;
+    }
+}
+
+.parrafoMasajesCelulitis{
+    font-size: 30px;
+}
+
+.containerImgCelu{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
 }
 
 .imgMasajesCelulitis{
@@ -79,7 +138,128 @@
     height: 500px;
 }
 
-.parrafoMasajesCelulitis{
-    font-size: 30px;
-    padding: 35px;
+@media screen and (max-width: 768px){
+    .containerMasajesAbdomen{
+        flex-direction: column-reverse;
+    }
+    .parrafoMasajesUno{
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
+    }
+    .containerImgAbd{
+        justify-content: center;
+        padding: 15px;
+    }
+    .containerMasajesEspalda{
+        flex-direction: column-reverse;
+    }
+    .parrafoMasajesDos{
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
+    }
+    .containerImgEsp{
+        justify-content: center;
+        padding: 15px;
+    }
+    .containerMasajesGluteos{
+        flex-direction: column-reverse;
+    }
+    .parrafoMasajesGluteos{
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
+    }
+    .containerImgGlu{
+        justify-content: center;
+        padding: 15px;
+    }
+    .containerMasajesDescontracturantes{
+        flex-direction: column-reverse;
+    }
+    .parrafoMasajesDescontracturantes{
+        font-size: 25px;
+        text-align: center;
+        padding: 5px;
+    }
+    .containerImgDesc{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+    .imgMasajesDescon{
+        width: 450px;
+        height: 600px;
+    }
+    .containerMasajesCelulitis{
+        flex-direction: column-reverse;
+    }
+    .parrafoMasajesCelulitis{
+        font-size: 25px;
+        text-align: center;
+        padding: 8px;
+    }
+    .containerImgCelu{
+        justify-content: center;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .parrafoMasajesUno{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .containerImgAbd{
+        padding: 10px;
+    }
+    .imgMasajesAbdominales{
+        width: 350px;
+        height: 450px;
+    }
+    .parrafoMasajesDos{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .containerImgEsp{
+        padding: 10px;
+    }
+    .imgMasajesEspalda{
+        width: 350px;
+        height: 450px;
+    }
+    .parrafoMasajesGluteos{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .containerImgGlu{
+        padding: 10px;
+    }
+    .imgMasajesGluteos{
+        width: 350px;
+        height: 450px;
+    }
+    .parrafoMasajesDescontracturantes{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .containerImgDesc{
+        padding: 10px;
+    }
+    .imgMasajesDescon{
+        width: 350px;
+        height: 450px;
+    }
+    .parrafoMasajesCelulitis{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .containerImgCelu{
+        padding: 10px;
+    }
+    .imgMasajesCelulitis{
+        width: 350px;
+        height: 450px;
+    }
 }

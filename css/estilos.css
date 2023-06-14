@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 768px) {
   .fraseUno {
-    font-size: 40px;
+    font-size: 38px;
   }
   .fraseUno p {
     padding: 7px;
@@ -89,6 +89,22 @@
 @media screen and (max-width: 600px) {
   .fraseUno {
     font-size: 32px;
+  }
+  .imagenArtUno {
+    width: 400px;
+    height: 250px;
+  }
+  .parrafoArticuloUno {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .imagenCompu {
+    width: 400px;
+    height: 250px;
+  }
+  .parrafoArticuloDos {
+    font-size: 20px;
+    padding: 15px;
   }
 }
 .containerContacto {
@@ -143,8 +159,59 @@
 .mapa {
   width: 450px;
   height: 300px;
+  border-radius: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .containerContacto p {
+    font-size: 25px;
+    padding: 5px;
+  }
+  .containerFormulario label {
+    font-size: 23px;
+  }
+  .containerFormulario div {
+    padding: 20px;
+  }
+  .containerFormulario div input {
+    margin: 5px 10px;
+    font-size: 23px;
+  }
+  .containerInfo {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+  }
+  .mapa {
+    width: 600px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .containerContacto p {
+    font-size: 20px;
+    padding: 5px;
+  }
+  .containerFormulario label {
+    font-size: 20px;
+  }
+  .containerFormulario div {
+    padding: 15px;
+  }
+  .containerFormulario div input {
+    font-size: 20px;
+    padding: 0px 15px;
+  }
+  .containerInfo {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .mapa {
+    width: 450px;
+    height: 150px;
+  }
+}
 .tituloQuienesSomos {
   text-align: center;
   background-color: #DDC8C4;
@@ -154,15 +221,39 @@
   margin-bottom: 0%;
 }
 
+.containerParrafoQuienesUno ul {
+  list-style-type: none;
+  margin: 0%;
+}
+
 .parrafoQuienesUno {
   font-size: 30px;
   padding: 50px;
   text-align: center;
 }
 
+.containerConsultorio {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #F8F4E3;
+  padding: 10px;
+}
+.containerConsultorio li {
+  list-style-type: none;
+  margin: 0%;
+}
+
+.containerImgConsul {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
 .imgQuienes {
-  width: 100%;
-  height: 1000px;
+  width: 800px;
+  height: 500px;
 }
 
 .containerParrafoManu {
@@ -195,6 +286,53 @@
   margin: 0%;
 }
 
+@media screen and (max-width: 768px) {
+  .parrafoQuienesUno {
+    font-size: 25px;
+    padding: 30px;
+  }
+  .containerConsultorio {
+    font-size: 30px;
+    color: #49181B;
+  }
+  .imgQuienes {
+    width: 500px;
+    height: 350px;
+  }
+  .tituloFundadora {
+    font-size: 35px;
+  }
+  .imgFundadora {
+    width: 300px;
+    height: 350px;
+  }
+  .containerParrafoManu {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .parrafoQuienesUno {
+    font-size: 20px;
+    padding: 25px;
+  }
+  .containerConsultorio {
+    font-size: 25px;
+  }
+  .imgQuienes {
+    width: 450px;
+    height: 300px;
+  }
+  .tituloFundadora {
+    font-size: 30px;
+  }
+  .imgFundadora {
+    width: 250px;
+    height: 300px;
+  }
+  .containerParrafoManu {
+    font-size: 19px;
+  }
+}
 .tituloTratamientosCorporales {
   text-align: center;
   background-color: #DDC8C4;
@@ -207,6 +345,23 @@
 .containerMasajesAbdomen {
   display: flex;
   background-color: #F8F4E3;
+  margin: 0%;
+}
+.containerMasajesAbdomen ul {
+  list-style-type: none;
+}
+
+.parrafoMasajesUno {
+  font-size: 30px;
+  padding: 20px;
+  margin: 0%;
+}
+
+.containerImgAbd {
+  display: flex;
+  justify-content: end;
+  margin: 0%;
+  padding: 10px;
 }
 
 .imgMasajesAbdominales {
@@ -214,19 +369,26 @@
   height: 500px;
 }
 
-.parrafoMasajesUno {
-  font-size: 30px;
-  padding: 20px;
-}
-
 .containerMasajesEspalda {
   display: flex;
   flex-direction: row-reverse;
 }
+.containerMasajesEspalda ul {
+  list-style-type: none;
+}
 
 .parrafoMasajesDos {
   font-size: 30px;
-  padding: 5px 10px 0px 10px;
+  margin: 0%;
+  padding: 10px;
+}
+
+.containerImgEsp {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0%;
+  padding: 10px;
 }
 
 .imgMasajesEspalda {
@@ -237,11 +399,23 @@
 .containerMasajesGluteos {
   display: flex;
   background-color: #F8F4E3;
+  align-items: center;
+}
+.containerMasajesGluteos ul {
+  list-style-type: none;
 }
 
 .parrafoMasajesGluteos {
   font-size: 30px;
-  padding: 130px 20px 130px 20px;
+  padding: 20px 20px;
+  margin: 0%;
+}
+
+.containerImgGlu {
+  margin: 0%;
+  padding: 10px;
+  display: flex;
+  justify-content: end;
 }
 
 .imgMasajesGluteos {
@@ -252,12 +426,21 @@
 .containerMasajesDescontracturantes {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+.containerMasajesDescontracturantes ul {
+  list-style-type: none;
+  margin: 0%;
 }
 
 .parrafoMasajesDescontracturantes {
   font-size: 30px;
-  padding: 20px;
+  padding: 10px;
+}
+
+.containerImgDesc {
+  padding: 10px;
 }
 
 .imgMasajesDescon {
@@ -268,7 +451,21 @@
 .containerMasajesCelulitis {
   display: flex;
   background-color: #F8F4E3;
-  justify-content: space-between;
+  align-items: center;
+}
+.containerMasajesCelulitis ul {
+  list-style-type: none;
+  margin: 0%;
+}
+
+.parrafoMasajesCelulitis {
+  font-size: 30px;
+}
+
+.containerImgCelu {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
 }
 
 .imgMasajesCelulitis {
@@ -276,11 +473,130 @@
   height: 500px;
 }
 
-.parrafoMasajesCelulitis {
-  font-size: 30px;
-  padding: 35px;
+@media screen and (max-width: 768px) {
+  .containerMasajesAbdomen {
+    flex-direction: column-reverse;
+  }
+  .parrafoMasajesUno {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
+  .containerImgAbd {
+    justify-content: center;
+    padding: 15px;
+  }
+  .containerMasajesEspalda {
+    flex-direction: column-reverse;
+  }
+  .parrafoMasajesDos {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
+  .containerImgEsp {
+    justify-content: center;
+    padding: 15px;
+  }
+  .containerMasajesGluteos {
+    flex-direction: column-reverse;
+  }
+  .parrafoMasajesGluteos {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
+  .containerImgGlu {
+    justify-content: center;
+    padding: 15px;
+  }
+  .containerMasajesDescontracturantes {
+    flex-direction: column-reverse;
+  }
+  .parrafoMasajesDescontracturantes {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+  }
+  .containerImgDesc {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  .imgMasajesDescon {
+    width: 450px;
+    height: 600px;
+  }
+  .containerMasajesCelulitis {
+    flex-direction: column-reverse;
+  }
+  .parrafoMasajesCelulitis {
+    font-size: 25px;
+    text-align: center;
+    padding: 8px;
+  }
+  .containerImgCelu {
+    justify-content: center;
+    padding: 15px;
+  }
 }
-
+@media screen and (max-width: 600px) {
+  .parrafoMasajesUno {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .containerImgAbd {
+    padding: 10px;
+  }
+  .imgMasajesAbdominales {
+    width: 350px;
+    height: 450px;
+  }
+  .parrafoMasajesDos {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .containerImgEsp {
+    padding: 10px;
+  }
+  .imgMasajesEspalda {
+    width: 350px;
+    height: 450px;
+  }
+  .parrafoMasajesGluteos {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .containerImgGlu {
+    padding: 10px;
+  }
+  .imgMasajesGluteos {
+    width: 350px;
+    height: 450px;
+  }
+  .parrafoMasajesDescontracturantes {
+    font-size: 20px;
+    padding: 5px;
+  }
+  .containerImgDesc {
+    padding: 10px;
+  }
+  .imgMasajesDescon {
+    width: 350px;
+    height: 450px;
+  }
+  .parrafoMasajesCelulitis {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .containerImgCelu {
+    padding: 10px;
+  }
+  .imgMasajesCelulitis {
+    width: 350px;
+    height: 450px;
+  }
+}
 .tituloTratamientosFaciales {
   text-align: center;
   background-color: #DDC8C4;
@@ -292,7 +608,23 @@
 
 .containerLimpiezaFacial {
   display: flex;
+  align-items: center;
   background-color: #F8F4E3;
+}
+.containerLimpiezaFacial ul {
+  list-style-type: none;
+  margin: 0%;
+}
+
+.parrafoLimpiezaUno {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.containerImgLimFac {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
 }
 
 .imgLimpiezaFacial {
@@ -300,15 +632,26 @@
   height: 500px;
 }
 
-.parrafoLimpiezaUno {
-  font-size: 30px;
-  padding: 150px;
-}
-
 .containerMasajesFaciales {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+.containerMasajesFaciales ul {
+  list-style-type: none;
+  margin: 0%;
+}
+
+.containerImgMasFac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.parrafoMasajesFaciales {
+  font-size: 30px;
 }
 
 .imgMasajesFaciales {
@@ -316,15 +659,25 @@
   height: 500px;
 }
 
-.parrafoMasajesFaciales {
-  font-size: 30px;
-  padding: 150px;
-}
-
 .containerDermaplaning {
   display: flex;
   background-color: #F8F4E3;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.containerDermaplaning ul {
+  list-style-type: none;
+  margin: 0%;
+}
+
+.parrafoDermaplaning {
+  font-size: 30px;
+}
+
+.containerImgDermaplaning {
+  display: flex;
+  justify-content: end;
 }
 
 .imgDermaplaning {
@@ -332,15 +685,25 @@
   height: 500px;
 }
 
-.parrafoDermaplaning {
-  font-size: 30px;
-  padding: 150px;
-}
-
 .containerDermapen {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #DDC8C4;
+}
+.containerDermapen ul {
+  list-style: none;
+  margin: 0%;
+}
+
+.parrafoDermapen {
+  font-size: 30px;
+}
+
+.containerImgDermapen {
+  padding: 15px;
 }
 
 .imgDermapen {
@@ -348,11 +711,102 @@
   height: 500px;
 }
 
-.parrafoDermapen {
-  font-size: 30px;
-  padding: 70px;
+@media screen and (max-width: 768px) {
+  .containerLimpiezaFacial {
+    flex-direction: column-reverse;
+  }
+  .parrafoLimpiezaUno {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
+  .containerImgLimFac {
+    justify-content: center;
+    padding: 15px;
+  }
+  .containerMasajesFaciales {
+    flex-direction: column-reverse;
+  }
+  .parrafoMasajesFaciales {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
+  .containerImgMasFac {
+    justify-content: center;
+    padding: 15px;
+  }
+  .containerDermaplaning {
+    flex-direction: column-reverse;
+  }
+  .parrafoDermaplaning {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
+  .containerImgDermaplaning {
+    justify-content: center;
+    padding: 15px;
+  }
+  .containerDermapen {
+    flex-direction: column-reverse;
+  }
+  .parrafoDermapen {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
+  .imgDermapen {
+    width: 700px;
+    height: 400px;
+  }
 }
-
+@media screen and (max-width: 600px) {
+  .parrafoLimpiezaUno {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .containerImgLimFac {
+    padding: 10px;
+  }
+  .imgLimpiezaFacial {
+    width: 350px;
+    height: 450px;
+  }
+  .parrafoMasajesFaciales {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .containerMasajesFaciales {
+    padding: 10px;
+  }
+  .imgMasajesFaciales {
+    width: 350px;
+    height: 450px;
+  }
+  .parrafoDermaplaning {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .containerDermaplaning {
+    padding: 10px;
+  }
+  .imgDermaplaning {
+    width: 350px;
+    height: 450px;
+  }
+  .parrafoDermapen {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .containerDermapen {
+    padding: 10px;
+  }
+  .imgDermapen {
+    width: 500px;
+    height: 275px;
+  }
+}
 .navbar {
   padding: 0%;
 }
@@ -380,6 +834,9 @@
   .imagenLogo {
     width: 200px;
     height: 60px;
+  }
+  .navbar-nav {
+    font-size: 18px;
   }
 }
 .footer {
@@ -410,6 +867,16 @@
   height: 75px;
 }
 
+@media screen and (max-width: 600px) {
+  .logoInsta {
+    width: 50px;
+    height: 50px;
+  }
+  .logoWpp {
+    width: 50px;
+    height: 50px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
