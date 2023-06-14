@@ -192,6 +192,9 @@
     font-size: 20px;
     padding: 5px;
   }
+  .containerFormulario {
+    padding: 30px;
+  }
   .containerFormulario label {
     font-size: 20px;
   }
@@ -208,7 +211,7 @@
     padding: 20px;
   }
   .mapa {
-    width: 450px;
+    width: 325px;
     height: 150px;
   }
 }
