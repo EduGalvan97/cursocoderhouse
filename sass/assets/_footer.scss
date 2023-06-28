@@ -19,11 +19,21 @@
 .logoInsta{
     width: 75px;
     height: 75px;
+    transition: transform 1s;
+}
+
+.logoInsta:hover{
+    transform: scale(1.2);
 }
 
 .logoWpp{
     width: 75px;
     height: 75px;
+    transition: transform 1s;
+}
+
+.logoWpp:hover{
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 600px){
