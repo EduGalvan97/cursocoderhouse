@@ -237,26 +237,26 @@
 
 .containerConsultorio {
   font-size: 40px;
-  display: flex;
-  align-items: center;
   text-align: center;
   background-color: #F8F4E3;
   padding: 10px;
 }
-.containerConsultorio li {
-  list-style-type: none;
-  margin: 0%;
-}
 
-.containerImgConsul {
+.divCarrusel {
   display: flex;
   justify-content: center;
   padding: 20px;
+  background-color: #F8F4E3;
 }
 
-.imgQuienes {
-  width: 800px;
-  height: 500px;
+.carousel {
+  width: 850px;
+  height: 550px;
+}
+
+.tamanoImgConsul {
+  width: 850px;
+  height: 550px;
 }
 
 .containerParrafoManu {
@@ -298,9 +298,14 @@
     font-size: 30px;
     color: #49181B;
   }
-  .imgQuienes {
-    width: 500px;
-    height: 350px;
+  .carousel {
+    width: 600px;
+    height: 450px;
+    padding: 5px;
+  }
+  .tamanoImgConsul {
+    width: 600px;
+    height: 450px;
   }
   .tituloFundadora {
     font-size: 35px;
@@ -321,8 +326,13 @@
   .containerConsultorio {
     font-size: 25px;
   }
-  .imgQuienes {
-    width: 450px;
+  .carousel {
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+  }
+  .tamanoImgConsul {
+    width: 400px;
     height: 300px;
   }
   .tituloFundadora {
