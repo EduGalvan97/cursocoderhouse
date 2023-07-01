@@ -23,6 +23,14 @@
     }
 }
 
+.imagenLogo{
+    transition: transform 1.5s;
+}
+
+.imagenLogo:hover{
+    transform: scale(0.9);
+}
+
 @media screen and (max-width: 600px){
     .imagenLogo{
         width: 200px;

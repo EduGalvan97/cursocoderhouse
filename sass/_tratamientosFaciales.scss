@@ -5,6 +5,7 @@
     h1{
         margin-bottom: 0%;
     }
+    animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 .containerLimpiezaFacial{
@@ -110,6 +111,21 @@
 .imgDermapen{
     width: 1100px;
     height: 500px;
+}
+
+@keyframes tracking-in-expand-fwd {
+    0% {
+        letter-spacing: -0.5em;
+        transform: translateZ(-700px);
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateZ(0);
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 768px){

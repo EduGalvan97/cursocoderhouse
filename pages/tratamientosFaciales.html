@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
@@ -48,7 +49,7 @@
         <section class="col-lg-12 col-md-12 col-sm-12 tituloTratamientosFaciales">
             <h1>Tratamientos Faciales</h1>
         </section>
-        <div class="row containerLimpiezaFacial">
+        <div class="row containerLimpiezaFacial" data-aos="fade-up" data-aos-duration="3000">
             <ul class="col-lg-9 col-md-12 col-sm-12 parrafoLimpiezaUno">
                 <li><u>Limpieza Facial</u></li>
                 <li><p>Es el tratamiento ideal para pieles grasas con puntos negros. Complemento e ideal en pacientes con acné, también en pieles envejecidas y deshidratadas brindando luz y confort.</p></li>
@@ -57,7 +58,7 @@
                 <li><img class="img-thumbnail imgLimpiezaFacial" src="../img/tratamientosFaciales/limpiezaFacial.jpg" alt="Limpieza Facial"></li>
             </ul>
         </div>
-        <div class="row containerMasajesFaciales">
+        <div class="row containerMasajesFaciales" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <ul class="col-lg-9 col-md-12 col-sm-12 parrafoMasajesFaciales">
                 <li><u>Masajes Faciales</u></li>
                 <li><p>El masaje facial relaja los músculos de la cara, mejora la circulación de la zona, reduce las líneas de expresión, tonifica los músculos y alivia la tensión, lo que contribuye a un aspecto rejuvenecido y fresco.</p></li>
@@ -66,7 +67,7 @@
                 <li><img class="img-thumbnail imgMasajesFaciales" src="../img/tratamientosFaciales/masajesFaciales.jpg" alt="Masajes Faciales"></li>
             </ul>
         </div>
-        <div class="row containerDermaplaning">
+        <div class="row containerDermaplaning" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
             <ul class="col-lg-9 col-md-12 col-sm-12 parrafoDermaplaning">
                 <li><u>Dermaplaning</u></li>
                 <li><p>Es un tipo de peeling, que, como todo peeling, se utiliza para afinar la capa córnea (la más externa de la piel), eliminar células muertas, vellos, impurezas, minimizar manchas, mejorar la abosorción posterior de los principios activos, entre otra utilidades.</p></li>
@@ -75,7 +76,7 @@
                 <li><img class="img-thumbnail imgDermaplaning" src="../img/tratamientosFaciales/demaplaning.jpg" alt="Limpieza facil con bisturi"></li>
             </ul>
         </div>
-        <div class="row containerDermapen">
+        <div class="row containerDermapen" data-aos="fade-up" data-aos-duration="3000">
             <ul class="col-lg-12 col-md-12 col-sm-12 parrafoDermapen">
                 <li><u>Dermapen</u></li>
                 <li><p>Es un tratamiento estético para corregir las imperfecciones de la piel en zonas localizadas de cualquier parte del cuerpo. Sirve para estimular la elastina y el colágeno de forma natural. Por esa razón logra reducir manchas, estrías, arrugas, cicatrices o imperfecciones.</p></li>
@@ -102,5 +103,9 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

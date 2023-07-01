@@ -6,6 +6,7 @@
     p{
         margin: 0%;
     }
+    animation: slide-in-elliptic-top-fwd 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .colorFormulario{
@@ -24,8 +25,19 @@
             padding: 0px 20px;
             margin: 10px;
             background-color: #F0EFEB;
+            border-radius: 10px;
         }
     }
+}
+
+.containerFormulario{
+    div{
+        input:active{
+            background-color: #DDC8C4;
+            color: white;
+        }
+    }
+    animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 .containerInfo{
@@ -36,6 +48,7 @@
     p{
         font-size: 20px;
     }
+    animation: bounce-in-bottom 4s both;
 }
 
 .row{
@@ -51,6 +64,67 @@
     width: 450px;
     height: 300px;
     border-radius: 20px;
+}
+
+@keyframes slide-in-elliptic-top-fwd {
+    0% {
+        transform: translateY(-600px) rotateX(-30deg) scale(0);
+        transform-origin: 50% 100%;
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0) rotateX(0) scale(1);
+        transform-origin: 50% 1400px;
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce-in-bottom {
+    0% {
+        transform: translateY(500px);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+    38% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+    55% {
+        transform: translateY(65px);
+        animation-timing-function: ease-in;
+    }
+    72% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+    81% {
+        transform: translateY(28px);
+        animation-timing-function: ease-in;
+    }
+    90% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+    95% {
+        transform: translateY(8px);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
 }
 
 @media screen and (max-width: 768px){

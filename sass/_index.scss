@@ -15,6 +15,12 @@
     }
 }
 
+.divCarruselUno{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
 .articuloUno{
     display: flex;
     list-style-type: none;
@@ -49,9 +55,6 @@
 @media screen and (max-width: 768px){
     .fraseUno{
         font-size: 38px;
-        p{
-            padding: 7px;
-        }
     }
     .posicionImagen{
         display: flex;

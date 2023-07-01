@@ -5,6 +5,7 @@
     h1{
         margin-bottom: 0%;
     }
+    animation: focus-in-contract-bck 1.5s ease-in-out both;
 }
 
 .containerParrafoQuienesUno{
@@ -18,6 +19,7 @@
     font-size: 30px;
     padding: 50px;
     text-align: center;
+    animation: text-focus-in 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
 .containerConsultorio{
@@ -35,13 +37,13 @@
 }
 
 .carousel{
-    width: 850px;
-    height: 550px;
+    width: 1200px;
+    height: 650px;
 }
 
 .tamanoImgConsul{
-    width: 850px;
-    height: 550px;
+    width: 1200px;
+    height: 650px;
 }
 
 .containerParrafoManu{
@@ -60,6 +62,7 @@
     p{
         margin-bottom: 0%;
     }
+    animation: tracking-in-contract-bck-bottom 2s ease-in both;
 }
 
 .containerImgFunda{
@@ -72,6 +75,60 @@
     height: 425px;
     border-radius: 60%;
     margin: 0%;
+    animation: puff-in-hor 3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@keyframes focus-in-contract-bck {
+    0% {
+        letter-spacing: 1em;
+        transform: translateZ(300px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateZ(12px);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-contract-bck-bottom {
+    0% {
+        letter-spacing: 1em;
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes puff-in-hor {
+    0% {
+        transform: scaleX(2);
+        filter: blur(4px);
+        opacity: 0;
+    }
+    100% {
+        transform: scaleX(1);
+        filter: blur(0px);
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 768px){

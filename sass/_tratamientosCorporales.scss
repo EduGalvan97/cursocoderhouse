@@ -5,6 +5,7 @@
     h1{
         margin-bottom: 0%;
     }
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 .containerMasajesAbdomen{
@@ -136,6 +137,17 @@
 .imgMasajesCelulitis{
     width: 400px;
     height: 500px;
+}
+
+@keyframes text-focus-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 768px){

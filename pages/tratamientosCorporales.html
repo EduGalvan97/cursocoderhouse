@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
@@ -48,7 +49,7 @@
         <section class="col-lg-12 col-md-12 col-sm-12 tituloTratamientosCorporales">
             <h1>Tratamientos Corporales</h1>
         </section>
-        <div class="row containerMasajesAbdomen">
+        <div class="row containerMasajesAbdomen" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
             <ul class="col-lg-8 col-md-12 col-sm-12 parrafoMasajesUno">
                 <li><u>Masajes de Abdomen</u></li>
                 <li><p>Libera los espasmos de los tejidos musculares en el área abdominal, alivia molestias abdominales y previene y corrige problemas en el útero. </p></li>
@@ -59,7 +60,7 @@
                 <li><img class="img-thumbnail imgMasajesAbdominales" src="../img/tratamientosCorporales/masajesAbdomen.jpg" alt="Masajes de abdomen"></li>
             </ul>
         </div>
-        <div class="row containerMasajesEspalda">
+        <div class="row containerMasajesEspalda" data-aos="zoom-out-left">
             <ul class="col-lg-9 col-md-12 col-sm-12 parrafoMasajesDos">
                 <li><u>Masajes de Espalda</u>
                 <li><p>Son muchos los factores que nos puede conducir a tener problemas en la espalda. 
@@ -72,7 +73,7 @@
                 <li><img class="img-thumbnail imgMasajesEspalda" src="../img/tratamientosCorporales/masajesEspalda.jpg" alt="Masajes de espalda"></li>
             </ul>
         </div>
-        <div class="row containerMasajesGluteos">
+        <div class="row containerMasajesGluteos" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <ul class="col-lg-9 col-md-12 col-sm-12 parrafoMasajesGluteos">
                 <li><u>Masajes de Gluteos</u></li>
                 <li><p>Los masajes para fortalecer glúteos suelen ser muy efectivos también, ya que estimulan la circulación sanguínea y permiten combatir la piel de naranja y la celulitis, y evitar el riesgo de estrías en el caso de estar llevando a cabo una dieta. En estos casos, es muy recomendable que el masaje se realice con productos cosméticos indicados para tratar estos problemas.</p></li>
@@ -81,7 +82,7 @@
                 <li><img class="img-thumbnail imgMasajesGluteos" src="../img/tratamientosCorporales/masajesGluteos.jpg" alt="Masajes de gluteos"></li>
             </ul>
         </div>
-        <div class="row containerMasajesDescontracturantes">
+        <div class="row containerMasajesDescontracturantes" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
             <ul class="col-lg-8 col-md-12 col-sm-12 parrafoMasajesDescontracturantes">
                 <li><u>Masajes Descontraturantes y Relajantes</u></li>
                 <li><p>Recuperación la elasticidad y funcionalidad muscular</p></li>
@@ -101,7 +102,7 @@
                 <li><img class="img-thumbnail imgMasajesDescon" src="../img/tratamientosCorporales/masajesDescontracturantesYRelajantes.jpg" alt="Masajes en todo el cuerpo"></li>
             </ul>
         </div>
-        <div class="row containerMasajesCelulitis">
+        <div class="row containerMasajesCelulitis" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <ul class="col-lg-9 col-md-12 col-sm-12 parrafoMasajesCelulitis">
                 <li><u>Masajes para Celulitis</u></li>
                 <li><p>Es una técnica muy popular y no invasiva que te permitirá activar tu cuerpo y eliminar grasa y retención de líquidos.</p></li>
@@ -133,5 +134,9 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
